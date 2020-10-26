@@ -17,4 +17,8 @@ public class ApplicationController {
 		
 	}
 	
+	@GetMapping("/register")
+	public String register() {
+		return "register";
+	}
 }
